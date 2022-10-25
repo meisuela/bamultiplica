@@ -11,6 +11,7 @@ p{
     margin-right: 50px;
     line-height: 1.1;
     color: white;
+    /* Hola */
 
     
 }
@@ -18,7 +19,7 @@ iframe{
     align-content: center;
     margin-top: 10px;
     border: solid  white;
-    border-width: 1px;
+    border-width: 1px
 }
 
 .titulo{
