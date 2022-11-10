@@ -1,0 +1,15 @@
+body{
+    background-color: #efd9d1;
+    font-family: 'Cormorant Garamond', serif;
+}
+h1{
+    color: black;
+    /* text-decoration: underline; */
+    text-align: center;
+    font-size: 43px;
+    background-color: #f4eeed;
+}
+h3{
+    font-size: 35px;
+    padding-left: 10px;
+}
