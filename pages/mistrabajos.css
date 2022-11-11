@@ -1,5 +1,5 @@
 body{
-    background-color: #efd9d1;
+    background-color: white;
     font-family: 'Cormorant Garamond', serif;
 }
 h1{
@@ -8,8 +8,91 @@ h1{
     text-align: center;
     font-size: 43px;
     background-color: #f4eeed;
+    border: 1px black;
 }
 h3{
     font-size: 35px;
     padding-left: 10px;
+}
+.ContenedorImgTrenzas{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    grid: auto / auto auto auto;
+}
+.bloque1{
+    width: 30%;
+    height: 15%;
+    display: block;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+  
+.bloque2{
+    width: 30%;
+
+}
+.bloque3{
+    width: 30%;
+    margin-right: 10px;
+    
+}
+.bloque4{
+    width: 30%;
+    margin-left: 10px;
+}
+.bloque5{
+    width: 30%;
+
+}
+.bloque6{
+    width: 30%;
+    margin-right: 10px;
+
+}
+.bloque1 .bloque2 .bloque3 .bloque4 .bloque5 .bloque6{
+    display: inline-block;
+    /* align-items:; */
+    flex-flow:row;
+    width: 30%;
+
+}
+.bloque1 h4{
+        text-align: unset;
+    }
+
+.ContenedorImgTrenzas #img1{
+        width: 35%;
+        height: 140%;
+        border-style: ridge;
+        border-color: black;
+        border-width: 1px;
+}
+.ContenedorImgTrenzas #img2{
+    border-color: black;
+    border-width: 1px;
+    border-style: ridge;
+}
+.ContenedorImgTrenzas #img3{
+    border-style: ridge;
+    border-color: black;
+    border-width: 1px;
+}
+.ContenedorImgTrenzas #img4{
+    border-color: black;
+    border-width: 1px;
+    border-style: ridge;
+}
+.ContenedorImgTrenzas #img5{
+    border-style: ridge;
+    border-color: black;
+    border-width: 1px;
+    
+}
+.ContenedorImgTrenzas #img6{
+    border-style: ridge;
+    border-color: black;
+    border-width: 1px;
 }
